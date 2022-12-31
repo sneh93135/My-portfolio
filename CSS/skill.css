@@ -744,7 +744,7 @@ a:active {
 }
 
 .inst-log-g {
-  background-image: url(/image/git-hub.jpg);
+  background-image: url(./image/git-hub.jpg);
   background-size: cover;
   background-size: 90%;
   background-repeat: no-repeat;
@@ -789,7 +789,7 @@ a:active {
 }
 
 .inst-log-li {
-  background-image: url(/image/link-din.jpg);
+  background-image: url(./image/link-din.jpg);
   background-size: cover;
   background-size: 90%;
   background-repeat: no-repeat;

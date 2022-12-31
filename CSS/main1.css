@@ -148,7 +148,7 @@ a:active {
   border-color: rgb(39, 255, 255);
   border-width: 2px;
   /* display: inline-block; */
-  background-image: url(/image/mypic.jpg);
+  background-image: url(./image/mypic.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   border-image: round;
@@ -703,7 +703,7 @@ a {
 }
 
 .inst-log-g {
-  background-image: url(/image/git-hub.jpg);
+  background-image: url(./image/git-hub.jpg);
   background-size: cover;
   background-size: 90%;
   background-repeat: no-repeat;
@@ -748,7 +748,7 @@ a {
 }
 
 .inst-log-li {
-  background-image: url(/image/link-din.jpg);
+  background-image: url(./image/link-din.jpg);
   background-size: cover;
   background-size: 90%;
   background-repeat: no-repeat;
