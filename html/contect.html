@@ -56,37 +56,37 @@
         </div>
 
             <div class="from-1">
-                <form action="javascript" target="_blank">
+                <form>
 
 
                     <div class="input-1">
                         <label for="name"></label>
-                        <input type="text" placeholder="First name " id="name">
+                        <input type="text" placeholder="First name " id="name" required>
                     </div>
 
                     <div class="input-2">
                         <label for="name-2"></label>
-                        <input type="text" placeholder="Last name" id="name-2">
+                        <input type="text" placeholder="Last name" id="name-2" required>
                     </div>
 
                     <div class="input-3">
                         <label for="email"></label>
-                        <input type="emai" placeholder="Your E-mail Address" id="email">
+                        <input type="email" placeholder="Your E-mail Address" id="email" required>
                     </div>
 
                     <div class="input-4">
                         <label for="password"></label>
-                        <input type="password" placeholder="Your Password" id="password">
+                        <input type="password" placeholder="Your Password" id="password" required>
                     </div>
 
                     <div class="input-5">
                         <label for="number"></label>
-                        <input type="number" placeholder="Your Age" id="number">
+                        <input type="number" placeholder="Your Age" id="number" required>
                     </div>
 
                     <div class="input-6">
                         <label for="select">Agree</label>
-                        <input type="checkbox" name="checkbox" id="select">
+                        <input type="checkbox" name="checkbox" id="select" required>
                     </div>
 
                     <div class="input-7">
@@ -111,6 +111,7 @@
                         <button type="submit" value="enter" id= "btn" onclick="feedback()">Submit now</button>
 
                     </div>
+                </form>
 
             </div>
 
@@ -126,6 +127,26 @@
 function fun() {
     document.getElementById("cle").innerHTML = "thank you ";
 }
+
+   
+    // let pss  =  document.getElementById("password")
+
+    // if(pss.type == open){
+
+        var x = document.getElementById("password");
+  if (x.type === "password") {
+    // x.type = "text";
+    x.type = "password";
+
+  } else {
+    
+    x.type = "text";
+
+    // x.type = "password";
+  }
+
+
+    
     </script>
   
 
